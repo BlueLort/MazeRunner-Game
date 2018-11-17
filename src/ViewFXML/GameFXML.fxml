@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.canvas.Canvas?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="_main_layout" focusTraversable="true" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="768.0" prefWidth="1024.0" xmlns="http://javafx.com/javafx/" xmlns:fx="http://javafx.com/fxml/" fx:controller="controllers.Controller">
+    <children>
+        <AnchorPane fx:id="_canvas_container" focusTraversable="true" prefHeight="768.0" prefWidth="1024.0">
+            <children>
+                <Canvas fx:id="_canvas" focusTraversable="true" height="768.0" width="1024.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0" />
+                <Label fx:id="timeLabel" alignment="TOP_CENTER" layoutX="420" layoutY="10" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="60" prefWidth="200" style="-fx-font-family: SDS_6x6" textFill="WHITE" AnchorPane.topAnchor="10.0">
+                    <font>
+                        <Font size="20.0" />
+                    </font>
+                </Label>
+                <Label fx:id="healthLabel" alignment="CENTER" layoutX="5.0" layoutY="26.5" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="40" prefWidth="40" style="-fx-font-family: SDS_6x6" text="" textFill="WHITE" />
+                <Label fx:id="ammoLabel" alignment="CENTER" layoutX="5" layoutY="65" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="40" prefWidth="40" style="-fx-font-family: SDS_6x6" text="" textFill="WHITE" />
+                <Label fx:id="keyLabel" alignment="CENTER" layoutX="5" layoutY="100" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="40" prefWidth="40" style="-fx-font-family: SDS_6x6" text="" textFill="WHITE" />
+            <AnchorPane fx:id="wonWindow" layoutX="180.0" layoutY="100.0" prefHeight="506.0" prefWidth="598.0" stylesheets="@fxmlRes/styling.css">
+               <children>
+                  <Canvas fx:id="winningCanvas" height="506.0" width="624.0" />
+                  <Label alignment="CENTER" layoutX="67.0" layoutY="44.0" prefHeight="108.0" prefWidth="499.0" text="YOU WON!" textFill="#20d021">
+                     <font>
+                        <Font size="36.0" />
+                     </font>
+                  </Label>
+                  <Button fx:id="wonMenuButton" layoutX="62.0" layoutY="341.0" mnemonicParsing="false" onAction="#wonMainMenu" prefHeight="108.0" prefWidth="499.0" text="Return to menu" />
+                  <Label fx:id="finalScore" layoutX="42.0" layoutY="192.0" prefHeight="108.0" prefWidth="576.0" text="Score:" textFill="white">
+                     <font>
+                        <Font size="38.0" />
+                     </font>
+                  </Label>
+               </children>
+            </AnchorPane>
+            <AnchorPane fx:id="loosewindow" layoutX="190.0" layoutY="110.0" prefHeight="506.0" prefWidth="598.0" stylesheets="@fxmlRes/styling.css">
+               <children>
+                  <Canvas fx:id="lossingCanvas1" height="506.0" width="624.0" />
+                  <Label alignment="CENTER" layoutX="67.0" layoutY="44.0" prefHeight="108.0" prefWidth="499.0" text="YOU LOST!" textFill="#d01d1d">
+                     <font>
+                        <Font size="34.0" />
+                     </font>
+                  </Label>
+                  <Button fx:id="lostMenuButton1" layoutX="62.0" layoutY="341.0" mnemonicParsing="false" onAction="#wonMainMenu" prefHeight="108.0" prefWidth="499.0" text="Return to menu" />
+                  <Label fx:id="finalScore1" layoutX="42.0" layoutY="192.0" prefHeight="108.0" prefWidth="576.0" text="Score:" textFill="white">
+                     <font>
+                        <Font size="61.0" />
+                     </font>
+                  </Label>
+               </children>
+            </AnchorPane>
+
+            </children>
+        </AnchorPane>
+          <ImageView fx:id="muteImage" fitHeight="32.0" fitWidth="32.0" AnchorPane.rightAnchor="10.0" AnchorPane.topAnchor="10.0">
+              <image>
+                  <Image url="@fxmlRes/sound.png" />
+              </image>
+          </ImageView>
+          <Label fx:id="_score_text" contentDisplay="CENTER" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="40" prefWidth="236.0" style="-fx-font-family: SDS_6x6" text="Score:" textFill="WHITE" AnchorPane.bottomAnchor="15.0" AnchorPane.rightAnchor="763.0" AnchorPane.topAnchor="713.0" />
+    </children>
+</AnchorPane>

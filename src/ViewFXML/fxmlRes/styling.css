@@ -1,0 +1,55 @@
+.root {
+    -fx-background-color: #2e3980;
+    -fx-border-color: grey;
+}
+
+.button{
+    -fx-font-size: 6pt;
+    -fx-background-color: transparent;
+    -fx-font-size: 30px;
+    -fx-text-fill: 	WHITE;
+    -fx-font-family: SDS_6x6;
+}
+.button:hover{
+    -fx-background-color: transparent;
+    -fx-text-fill: white;
+    -fx-border-color: orange;
+    -fx-border-width: 4 4 4 4;
+    -fx-border-radius: 50,50;
+    -fx-font-family: SDS_6x6;
+}
+
+
+.button:pressed{
+-fx-border-width: 2 2 2 2;
+-fx-font-family: SDS_6x6;
+}
+.text-field {
+    -fx-background-color: #551A8B;
+    -fx-background-insets: 0 -1 -1 -1, 0 0 0 0, 0 -1 3 -1;
+    -fx-font-family: SDS_6x6;
+    -fx-text-fill: white;
+}
+.combo-box {
+    -fx-background-color: #551a8b;
+        -fx-font-family: SDS_6x6;
+
+}
+.combo-box .list-cell
+{
+    -fx-background: grey;
+    -fx-text-fill: white;
+    -fx-cell-size: 1.66667em;
+        -fx-font-family: SDS_6x6;
+
+}
+.label{
+      -fx-background-color: transparent;
+        -fx-font-family: SDS_6x6;
+
+
+}
+/*.combo-box .list-cell:hover{
+ -fx-background: purple;
+ -fx-font-family: SDS_6x6;
+}*/
