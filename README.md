@@ -1,6 +1,6 @@
 # MazeRunner-Game
 #### 2D Game Developed using Java & JavaFX
-Video:
+Video:[GameX Level Editor](https://youtu.be/fzyXdtUfvCo).
 - harraz21 Worked with me on this project(Worked on The menu and in game UI + save/load) and his email is mohamedharraz21@gmail.com
 This Game was for a college project.
 
