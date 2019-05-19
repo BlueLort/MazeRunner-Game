@@ -17,5 +17,3 @@ This Game was for a college project.
 - Try different design patterns using Java
 - Making 2D Game With JavaFX Canvas
 ## 
-#### This Project has some bugs due to the short time given to finish it during college so we focus on finishing tasks as fast as possible  you might find the code a bit messy and a lot of parts are not easily read.
-#### i don't like this project because i don't think this is a fun game.
