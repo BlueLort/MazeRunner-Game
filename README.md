@@ -13,7 +13,6 @@ This Game was for a college project.
   - name: Dubious Dungeon found [here](opengameart.org/content/dubious-dungeon).
 - in game sound effects [here](scratch.mit.edu/projects/215574665/). it was a project made by "DragonDePlatino"'s tileset by : "Ninja Happy Squid"(opengameart.org).
 
-## GOAL
-- Try different design patterns using Java
-- Making 2D Game With JavaFX Canvas
+## TO-DO
+- Refactor the Map Parser by allowing the players to create more maps using user-friendly GUI.
 ## 
